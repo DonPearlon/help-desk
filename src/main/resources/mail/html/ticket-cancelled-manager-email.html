@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title th:remove="all">Help Desk.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+<body>
+	<div align=left>
+		<h4>Dear [[${firstName}]] [[${lastName}]],</h4>
+     	<br>
+     	<h4>Ticket <a th:href="@{__${linkTo}__}">ID: [[${ticketId}]]</a> was cancelled by the Manager.</h4>
+	</div>
+</body>
+</html>
+
+

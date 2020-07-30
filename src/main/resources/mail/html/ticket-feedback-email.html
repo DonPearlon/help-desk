@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title th:remove="all">Help Desk.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+<body>
+	<div align=left>
+		<h4>Dear [[${firstName}]] [[${lastName}]],</h4>
+     	<br>
+     	<h4>The feedback was provided on ticket <a th:href="@{__${linkTo}__}">ID: [[${ticketId}]]</a>.</h4>
+	</div>
+</body>
+</html>
+
+
