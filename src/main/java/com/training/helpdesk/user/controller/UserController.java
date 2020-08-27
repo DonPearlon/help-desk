@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-
+//Some change made
 @RestController
 @RequestMapping("/api/users")
 @Api(tags = "1. Authentication")
